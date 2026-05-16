@@ -26,7 +26,7 @@ client.once('clientReady', () => {
     guildId: guild.id,
     adapterCreator: guild.voiceAdapterCreator,
     selfDeaf: true,
-    selfMute: true
+    selfMute: false
   });
 
   console.log('Bot masuk voice');
