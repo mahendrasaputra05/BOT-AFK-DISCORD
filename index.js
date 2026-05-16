@@ -39,7 +39,7 @@ async function connectVoice() {
       guildId: GUILD_ID,
       adapterCreator: guild.voiceAdapterCreator,
       selfDeaf: true,
-      selfMute: true,
+      selfMute: false,
     });
 
     connection.on(VoiceConnectionStatus.Ready, () => {
@@ -82,7 +82,7 @@ client.once('clientReady', async () => {
   client.user.setPresence({
     activities: [
       {
-        name: 'Menjaga Voice 24/7',
+        name: 'JAGA POIS',
         type: ActivityType.Watching,
       },
     ],
