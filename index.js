@@ -38,7 +38,7 @@ async function connectVoice() {
       channelId: CHANNEL_ID,
       guildId: GUILD_ID,
       adapterCreator: guild.voiceAdapterCreator,
-      selfDeaf: true,
+      selfDeaf: false,
       selfMute: false,
     });
 
@@ -82,7 +82,7 @@ client.once('clientReady', async () => {
   client.user.setPresence({
     activities: [
       {
-        name: 'JAGA POIS',
+        name: 'TIDUR',
         type: ActivityType.Watching,
       },
     ],
